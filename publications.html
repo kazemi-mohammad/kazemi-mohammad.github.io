@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Mohammad Kazemi | Publications</title>
+<meta name="description" content="Mohammad Kazemi, Research Associate in Edge AI at Imperial College London. Research in reliable AI, distributed learning, unsourced random access, and information theory.">
+<link rel="canonical" href="https://kazemi-mohammad.github.io/publications.html">
+<meta property="og:title" content="Mohammad Kazemi">
+<meta property="og:description" content="Research in reliable AI, distributed learning, and information theory.">
+<meta property="og:type" content="website"><meta property="og:url" content="https://kazemi-mohammad.github.io/publications.html"><meta property="og:image" content="https://kazemi-mohammad.github.io/assets/img/photo.jpg"><meta property="og:image:alt" content="Portrait of Mohammad Kazemi">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%238b357d'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial' font-size='28' fill='white'%3EMK%3C/text%3E%3C/svg%3E">
+<script>
+/* Set the theme before the page paints, so dark-mode visitors see no light flash. */
+(function(){var t=null;try{t=localStorage.getItem('mk-theme');}catch(e){}if(!t){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.dataset.theme=t;})();
+</script>
+<style>
+:root{--bg:#fff;--fg:#303030;--muted:#666;--line:#e8e8e8;--accent:#8b357d;--chip:#f6eef5}
+html[data-theme="dark"]{--bg:#202124;--fg:#e7e7e7;--muted:#b4b4b4;--line:#404144;--accent:#e3a5d8;--chip:#3a2f39}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 Arial,Helvetica,sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:5px}
+header{border-bottom:1px solid var(--line)}
+.bar{max-width:900px;margin:auto;padding:17px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{font-size:19px;color:var(--fg);font-weight:300}
+nav{display:flex;gap:23px;align-items:center;flex-wrap:wrap}
+nav a{color:var(--fg);font-size:14px}
+nav a[aria-current="page"]{color:var(--accent);font-weight:bold}
+.theme{border:0;background:none;color:var(--fg);font-size:21px;cursor:pointer;padding:4px 8px}
+main{max-width:850px;margin:55px auto 70px;padding:0 24px;min-height:65vh}
+h1{font-size:43px;font-weight:300;line-height:1.2;letter-spacing:-1px;margin:0 0 10px}
+h1 strong{font-weight:650}
+h2{font-size:28px;font-weight:400;margin:43px 0 18px}
+h3{font-size:17px;font-weight:600;line-height:1.5;margin:0 0 5px}
+h4{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin:22px 0 6px}
+p{margin:18px 0}
+.subtitle{color:var(--muted);font-size:14px;margin:0 0 30px}
+.photo{float:right;width:180px;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:4px;margin:6px 0 18px 28px;background:var(--line)}
+.clear{clear:both}
+.news{border-collapse:collapse;width:100%;font-size:15px}
+.news th{text-align:left;vertical-align:top;white-space:nowrap;padding:10px 25px 10px 0;font-size:13px;font-weight:500;color:var(--muted)}
+.news td{padding:10px 0;vertical-align:top}
+.more{font-size:13px;display:inline-block;margin-top:14px}
+.social{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;margin:54px 0 16px;font-size:14px}
+footer{border-top:1px solid var(--line);padding:18px 24px;text-align:center;font-size:11px;color:var(--muted)}
+.pub{margin:0 0 26px}
+.pub p{font-size:14px;color:var(--muted);margin:3px 0}
+.status{font-size:12px;color:var(--muted)}
+.links{margin-top:7px}
+.links a,.btn{border:1px solid var(--accent);border-radius:3px;padding:2px 8px;font-size:11px;margin-right:8px;display:inline-block}
+.btn{font-size:13px;padding:5px 12px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 30px}
+.filters button{font:13px Arial,Helvetica,sans-serif;border:1px solid var(--line);background:none;color:var(--fg);border-radius:14px;padding:4px 12px;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--chip);border-color:var(--accent);color:var(--accent)}
+.year-group[hidden],.pub[hidden]{display:none}
+#research h2{border-top:1px solid var(--line);padding-top:28px}
+#research ul{padding-left:20px}
+#research li{font-size:14px;margin:6px 0}
+.featured{border-left:3px solid var(--accent);padding:4px 0 4px 16px;margin:18px 0}
+.cvrow{display:grid;grid-template-columns:135px 1fr;gap:20px;padding:15px 0;border-bottom:1px solid var(--line)}
+.cvrow time{color:var(--muted);font-size:13px}
+.cvrow p{margin:0;font-size:15px}
+.skip{position:absolute;top:-100px}.skip:focus{top:5px;background:var(--bg);padding:8px}
+.page[hidden]{display:none}
+@media(max-width:600px){main{margin-top:34px}.bar{flex-wrap:wrap;gap:9px}nav{gap:14px}h1{font-size:35px}.photo{width:120px;margin-left:16px}.news th{padding-right:15px}.cvrow{grid-template-columns:95px 1fr;gap:12px}.social{gap:18px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="bar">
+  <a class="brand" href="index.html">Mohammad Kazemi</a>
+  <nav aria-label="Main navigation">
+    <a href="index.html">about</a>
+    <a href="research.html">research</a>
+    <a href="publications.html" aria-current="page">publications</a>
+    <a href="news.html">news</a>
+    <a href="cv.html">cv</a>
+    <button class="theme" aria-label="Switch to dark mode">☾</button>
+  </nav>
+</div></header>
+
+<main id="main"><section id="publications">
+  <h1>Publications</h1>
+  <p class="subtitle">Selected publications and preprints · <a href="https://scholar.google.com/citations?user=0EzA8AYAAAAJ&amp;hl=en">Full list on Google Scholar</a></p>
+
+  <div class="filters" role="group" aria-label="Filter by theme">
+    <button type="button" data-filter="all" aria-pressed="true">All</button>
+    <button type="button" data-filter="distributed" aria-pressed="false">Distributed learning</button>
+    <button type="button" data-filter="ura" aria-pressed="false">Unsourced random access</button>
+    <button type="button" data-filter="sync" aria-pressed="false">Synchronization errors</button>
+    <button type="button" data-filter="earlier" aria-pressed="false">Earlier work</button>
+  </div>
+
+  <div class="year-group"><h2>2026</h2>
+    <article class="pub" data-tag="distributed"><h3>TERRA: Task-oriented edge AI for regional fire detection with identity-free reporting</h3><p><strong>M. Kazemi</strong> and J. A. McCann</p><p>International Conference on the Internet of Things (IoT) · <span class="status">Accepted</span></p><div class="links"><a href="https://github.com/kazemi-mohammad/TERRA">Code</a></div></article>
+    <article class="pub" data-tag="distributed"><h3>Function computation over multiple access channels via hierarchical constellations</h3><p>S. Razavikia, <strong>M. Kazemi</strong>, D. Gündüz, and C. Fischione</p><p>IEEE International Symposium on Information Theory (ISIT) · <span class="status">Published</span></p><div class="links"><a href="https://arxiv.org/abs/2601.12050">arXiv</a></div></article>
+    <article class="pub" data-tag="distributed"><h3>Learned digital over-the-air computing for federated edge learning</h3><p>A. Tarizzo, <strong>M. Kazemi</strong>, and D. Gündüz</p><p>IEEE Workshop on Signal Processing and Artificial Intelligence for Wireless Communications (SPAWC) · <span class="status">Published</span></p><div class="links"><a href="https://arxiv.org/abs/2509.16577">arXiv</a></div></article>
+    <article class="pub" data-tag="ura"><h3>Unsourced random access: A comprehensive survey</h3><p>M. Ozates, M. J. Ahmadi, <strong>M. Kazemi</strong>, and T. M. Duman</p><p>IEEE Communications Surveys &amp; Tutorials, vol. 28, pp. 955–984 · <span class="status">Published</span></p></article>
+    <article class="pub" data-tag="ura"><h3>Fully asynchronous unsourced random access over fading channels</h3><p>M. Ozates, <strong>M. Kazemi</strong>, G. Liva, and D. Gündüz</p><p>IEEE Vehicular Technology Conference (VTC2026-Spring) · <span class="status">Published</span></p><div class="links"><a href="https://arxiv.org/abs/2512.19468">arXiv</a></div></article>
+    <article class="pub" data-tag="ura"><h3>Efficient feedback design for unsourced random access with integrated sensing and communication</h3><p>M. J. Ahmadi, <strong>M. Kazemi</strong>, and R. F. Schaefer</p><p>IEEE Wireless Communications Letters, vol. 15, pp. 710–714 · <span class="status">Published</span></p></article>
+    <article class="pub" data-tag="ura"><h3>Exact joint MAP decoding for unknown load and message counts in orthogonal unsourced random access</h3><p><strong>M. Kazemi</strong> and M. Ozates</p><p><span class="status">Preprint</span></p><div class="links"><a href="https://arxiv.org/abs/2610.20389">arXiv</a></div></article>
+    <article class="pub" data-tag="ura"><h3>Transceiver design for cell-free unsourced random access</h3><p>M. Ozates, <strong>M. Kazemi</strong>, E. Jorswieck, and D. Gündüz</p><p><span class="status">Preprint</span></p><div class="links"><a href="https://arxiv.org/abs/2608.10159">arXiv</a></div></article>
+    <article class="pub" data-tag="distributed"><h3>Cluster-aware scheduling and model personalization in over-the-air federated learning with energy constraints</h3><p>F. Bagci, B. Tegin, <strong>M. Kazemi</strong>, and T. M. Duman</p><p><span class="status">Preprint</span></p><div class="links"><a href="https://arxiv.org/abs/2608.01426">arXiv</a></div></article>
+  </div>
+
+  <div class="year-group"><h2>2025</h2>
+    <article class="pub" data-tag="distributed"><h3>Communication via sensing</h3><p><strong>M. Kazemi</strong>, D. Gündüz, and T. M. Duman</p><p>IEEE Information Theory Workshop (ITW) · <span class="status">Published</span></p></article>
+    <article class="pub" data-tag="sync"><h3>Characterization of deletion/substitution channel capacity for small deletion and substitution probabilities</h3><p><strong>M. Kazemi</strong> and T. M. Duman</p><p>IEEE Information Theory Workshop (ITW) · <span class="status">Published</span></p></article>
+    <article class="pub" data-tag="ura"><h3>RIS-aided unsourced multiple access (RISUMA): Coding strategy and performance limits</h3><p>M. J. Ahmadi, <strong>M. Kazemi</strong>, and T. M. Duman</p><p>IEEE Transactions on Wireless Communications, vol. 24, no. 7, pp. 6225–6239 · <span class="status">Published</span></p></article>
+    <article class="pub" data-tag="ura"><h3>A fully asynchronous unsourced random access scheme</h3><p>M. Ozates, <strong>M. Kazemi</strong>, G. Liva, and D. Gündüz</p><p>IEEE Workshop on Signal Processing and Artificial Intelligence for Wireless Communications (SPAWC) · <span class="status">Published</span></p></article>
+  </div>
+
+  <div class="year-group"><h2>2024</h2>
+    <article class="pub" data-tag="distributed"><h3>Over-the-air federated edge learning with hierarchical clustering</h3><p>O. Aygun, <strong>M. Kazemi</strong>, D. Gündüz, and T. M. Duman</p><p>IEEE Transactions on Wireless Communications, vol. 23, no. 12, pp. 17856–17871 · <span class="status">Published</span></p></article>
+    <article class="pub" data-tag="ura"><h3>A slotted pilot-based unsourced random access scheme with a multiple-antenna receiver</h3><p>M. Ozates, <strong>M. Kazemi</strong>, and T. M. Duman</p><p>IEEE Transactions on Wireless Communications, vol. 23, no. 4, pp. 3437–3449 · <span class="status">Published</span></p></article>
+    <article class="pub" data-tag="ura"><h3>Unsourced random access using multiple stages of orthogonal pilots: MIMO and single-antenna structures</h3><p>M. J. Ahmadi, <strong>M. Kazemi</strong>, and T. M. Duman</p><p>IEEE Transactions on Wireless Communications, vol. 23, no. 2, pp. 1343–1355 · <span class="status">Published</span></p></article>
+  </div>
+
+  <div class="year-group"><h2>2023</h2>
+    <article class="pub" data-tag="sync"><h3>Capacity bounds for the Poisson-repeat channel</h3><p><strong>M. Kazemi</strong> and T. M. Duman</p><p>IEEE International Symposium on Information Theory (ISIT), pp. 1196–1201 · <span class="status">Published</span></p></article>
+    <article class="pub" data-tag="earlier"><h3>Robust joint precoding/combining design for multiuser MIMO systems with calibration errors</h3><p><strong>M. Kazemi</strong>, C. Goken, and T. M. Duman</p><p>IEEE Transactions on Wireless Communications, vol. 22, no. 8, pp. 5157–5169 · <span class="status">Published</span></p></article>
+  </div>
+
+  <div class="year-group"><h2>2022</h2>
+    <article class="pub" data-tag="ura"><h3>Collision resolution for random access</h3><p><strong>M. Kazemi</strong>, T. M. Duman, and M. Médard</p><p>IEEE Transactions on Wireless Communications, vol. 21, no. 5, pp. 3464–3477 · <span class="status">Published</span></p></article>
+    <article class="pub" data-tag="distributed"><h3>Over-the-air federated learning with energy harvesting devices</h3><p>O. Aygun, <strong>M. Kazemi</strong>, D. Gündüz, and T. M. Duman</p><p>IEEE Global Communications Conference (GLOBECOM), pp. 1942–1947 · <span class="status">Published</span></p></article>
+  </div>
+
+  <div class="year-group"><h2>2020</h2>
+    <article class="pub" data-tag="earlier"><h3>Analysis of DF relay selection in massive MIMO systems with hardware impairments</h3><p><strong>M. Kazemi</strong>, A. Mohammadi, and T. M. Duman</p><p>IEEE Transactions on Vehicular Technology, vol. 69, no. 6, pp. 6141–6152 · <span class="status">Published</span></p></article>
+  </div>
+
+  <div class="year-group"><h2>2018</h2>
+    <article class="pub" data-tag="earlier"><h3>Scalability analysis of DF relay selection in massive MIMO systems with hardware impairments</h3><p><strong>M. Kazemi</strong> and A. Mohammadi</p><p>IEEE International Symposium on Telecommunications (IST), pp. 149–154 · <span class="status">Published · Best Paper Award</span></p></article>
+  </div>
+
+  <div class="year-group"><h2>2017</h2>
+    <article class="pub" data-tag="earlier"><h3>Discrete-phase constant envelope precoding for massive MIMO systems</h3><p><strong>M. Kazemi</strong>, H. Aghaeinia, and T. M. Duman</p><p>IEEE Transactions on Communications, vol. 65, no. 5, pp. 2011–2021 · <span class="status">Published</span></p></article>
+  </div>
+</section></main>
+<footer>© 2026 Mohammad Kazemi · Last updated: October 28, 2026</footer>
+
+<script>
+/* Theme toggle (initial theme is set in <head>). */
+const button=document.querySelector('.theme');
+const system=matchMedia('(prefers-color-scheme: dark)');
+let preference=null;try{preference=localStorage.getItem('mk-theme');}catch(e){}
+function applyTheme(v){document.documentElement.dataset.theme=v;button.setAttribute('aria-label',v==='dark'?'Switch to light mode':'Switch to dark mode');button.textContent=v==='dark'?'☀':'☾';}
+applyTheme(document.documentElement.dataset.theme);
+button.addEventListener('click',()=>{preference=document.documentElement.dataset.theme==='dark'?'light':'dark';applyTheme(preference);try{localStorage.setItem('mk-theme',preference);}catch(e){}});
+system.addEventListener('change',e=>{if(!preference)applyTheme(e.matches?'dark':'light');});
+
+
+
+/* Publication filter. */
+document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('click',()=>{
+  const f=b.dataset.filter;
+  document.querySelectorAll('.filters button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false'));
+  document.querySelectorAll('.year-group').forEach(g=>{let any=false;
+    g.querySelectorAll('.pub').forEach(p=>{const show=f==='all'||p.dataset.tag===f;p.hidden=!show;if(show)any=true;});
+    g.hidden=!any;});
+}));
+</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kazemi-mohammad.github.io/sitemap.xml
